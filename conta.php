@@ -28,11 +28,8 @@ function saca($valor){
   }
 }
 
-function imprime($val1,$val2,$val3,$val4){
-  echo "Conta $numero";
-  echo "Saldo $saldo";
-  echo "Limite $limite";
-  echo "agencia: $agencia";
+function imprime(){
+
 }
 
 

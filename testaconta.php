@@ -7,9 +7,9 @@ declare(strict_types=1);// usado apenas apos php 7  e antes da chamada da classe
 //} isso deve ser na função da classe
 require 'conta.php';
 $conta=new conta();
-$conta->deposita(1000);
-$conta->saca(1000);
-$conta->imprime(1000);
+$conta->deposita(1000) . PHP_EOL;
+$conta->saca(1000) . PHP_EOL;
+
 
 
 
