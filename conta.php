@@ -34,7 +34,7 @@ function imprime_extrato(){
 }
 
 function extrato($valor){
-  echo "Valor sacado $this->$valor" . PHP_EOL;
+  echo "Valor sacado $this->$saldo-$valor" . PHP_EOL;
   echo "Conta $this->$numeto" . PHP_EOL;
   echo "Agencia $this->$agencia" . PHP_EOL;
 
